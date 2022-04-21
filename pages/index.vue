@@ -16,7 +16,7 @@
       <v-container>
         <IndexSection
           id="suppliers"
-          title="Strategic Suppliers"
+          title="Brands We Supply"
           subtitle="We are the first-level agency in Asia for semiconductor brands
               such as Nuvoton, HuaDa Semiconductor, Nations Technologies Inc,
               Quectel, EM Microelectronic, etc."

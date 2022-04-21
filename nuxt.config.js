@@ -1,5 +1,3 @@
-import colors from "vuetify/es5/util/colors";
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -7,7 +5,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - keda-website",
-    title: "keda-website",
+    title: "Keda Enterprise Dev Co.",
     htmlAttrs: {
       lang: "en",
     },
