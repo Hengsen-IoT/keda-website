@@ -41,7 +41,12 @@ export default {
     customVariables: ["~/assets/variables.scss"],
     treeShake: true,
     theme: {
-      themes: {},
+      themes: {
+        light: {
+          primary: "#AE2D2A",
+          secondary: "#595267",
+        },
+      },
     },
   },
 
