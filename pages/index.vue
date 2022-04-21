@@ -115,7 +115,7 @@ export default {
     hotProducts: [],
     brands: [
       { title: "TI", url: "", img: "logo/ti_logo.png" },
-      { title: "ST", url: "", img: "logo/ST_logo.png" },
+      { title: "ST", url: "", img: "logo/st_logo.png" },
       { title: "Lattice", url: "", img: "logo/lattice_logo.png" },
       { title: "Nuvoton", url: "", img: "logo/nuvoton_logo.png" },
       { title: "HDHC", url: "", img: "logo/hdhc_logo.png" },
