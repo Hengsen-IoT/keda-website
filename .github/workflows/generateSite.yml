@@ -23,6 +23,9 @@ jobs:
           npm run generate
         env:
           CI: true
+          
+      - name: create CNAME file
+        run: echo -n "kedachip.com" > dist/CNAME
       
       - name: Deploy to gh-pages
         uses: s0/git-publish-subdir-action@develop
