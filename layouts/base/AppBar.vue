@@ -5,11 +5,7 @@
       <v-container class="d-flex align-center">
         <!-- LOGO -->
         <nuxt-link to="/">
-          <img
-            src="/logo.png"
-            alt="恒森科技 Logo"
-            style="width: 140px; height: 50px"
-          />
+          <img src="/logo.png" alt="Logo" style="width: 140px; height: 50px" />
         </nuxt-link>
 
         <!-- 占位 -->
