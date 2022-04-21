@@ -5,12 +5,11 @@
       <v-container class="d-flex align-center">
         <!-- LOGO -->
         <nuxt-link to="/">
-          <!-- <img
-            src="~/static/hengsen_logo.png"
+          <img
+            src="/logo.png"
             alt="恒森科技 Logo"
-            style="width: 160px; height: 35px"
-          /> -->
-          <h1>Keda</h1>
+            style="width: 140px; height: 50px"
+          />
         </nuxt-link>
 
         <!-- 占位 -->
@@ -65,8 +64,8 @@ export default {
       items: [
         ["Home", "/"],
         ["Suppliers", "/#suppliers"],
-        ["Catalog", "/#catalog"],
         ["Products", "/#products"],
+        ["Catalog", "/#catalog"],
         ["Contact", "/#contact"],
       ],
     };

@@ -3,9 +3,9 @@
     <!-- LOGO  -->
     <div class="d-flex justify-space-between align-center pa-3">
       <img
-        src="@/static/hengsen_logo.png"
-        alt="hengsen logo"
-        style="width: 160px; height: 35px"
+        src="/logo.png"
+        alt="恒森科技 Logo"
+        style="width: 140px; height: 50px"
       />
       <slot name="userDrawerCloseButton"></slot>
     </div>
