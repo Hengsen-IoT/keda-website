@@ -1,0 +1,33 @@
+name: generate site and push to gh-pages branch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build: # jobs named 'build'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      
+      - name: use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      
+      - name: npm install and build
+        run: |
+          npm install
+          npm run generate
+        env:
+          CI: true
+      
+      - name: Deploy to gh-pages
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: git@github.com:Hengsen-IoT/keda-website.git
+          BRANCH: gh-pages
+          FOLDER: dist
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
