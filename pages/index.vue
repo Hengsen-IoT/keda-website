@@ -5,13 +5,14 @@
         <h1 class="white--text text-center text-h1 mb-4">
           Keda Enterprise Development Co.
         </h1>
-        <h2 class="text-h4 white--text text-center font-weight-light mb-5">
-          We distribute IC products and solutions for our customers around the
-          world.
-          <br />
-          Keda Enterprise Development has long been focusing on the
-          semiconductor field as a first-level agent for multiple brands.
+        <h2 class="white--text text-center text-h3 mb-4">
+          IC Distributor in China
         </h2>
+        <h3 class="text-h4 white--text text-center font-weight-light mb-5">
+          We provide IC products and solutions for our customers around the
+          world. Keda has long been focusing on the semiconductor field as a
+          first-level agent for multiple brands.
+        </h3>
         <div class="text-center">
           <v-btn color="primary" to="#contact" class="me-2">Contact Us</v-btn>
           <v-btn
