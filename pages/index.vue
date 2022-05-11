@@ -149,7 +149,7 @@ export default {
       { title: "ST", url: "", img: "logo/st_logo.png" },
       { title: "Lattice", url: "", img: "logo/lattice_logo.png" },
       { title: "Nuvoton", url: "", img: "logo/nuvoton_logo.png" },
-      { title: "HDHC", url: "", img: "logo/hdhc_logo.png" },
+      { title: "HDSC", url: "", img: "logo/hdsc_logo.png" },
       { title: "EM", url: "", img: "logo/em_logo.png" },
       { title: "Giantec", url: "", img: "logo/giantec_logo.png" },
       { title: "Quectel", url: "", img: "logo/quectel_logo.png" },
