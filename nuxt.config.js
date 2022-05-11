@@ -4,15 +4,21 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - keda-website",
-    title: "Keda Enterprise Co.",
+    titleTemplate: "%s",
+    title:
+      "Keda Enterprise Co. | IC Distributor in China for more than 20 years",
     htmlAttrs: {
       lang: "en",
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "We distribute IC products and solutions for our customers around the world. Keda Enterprise Development has long been focusing on the semiconductor field as a first-level agent for multiple brands.",
+      },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
@@ -31,6 +37,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+    "@nuxtjs/google-analytics",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -48,6 +55,11 @@ export default {
         },
       },
     },
+  },
+
+  // Google analytics
+  googleAnalytics: {
+    id: "G-3EVBL01GR5",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
