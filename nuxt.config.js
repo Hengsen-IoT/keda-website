@@ -28,7 +28,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ["@/plugins/gtag"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -37,7 +37,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
-    "@nuxtjs/google-analytics",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -55,11 +54,6 @@ export default {
         },
       },
     },
-  },
-
-  // Google analytics
-  googleAnalytics: {
-    id: "G-3EVBL01GR5",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
