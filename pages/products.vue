@@ -27,6 +27,8 @@
         :items="products"
         :search="search"
         class="elevation-1"
+        no-data-text="Product is not listed. Please contact us via info@kedachip.com"
+        no-results-text="Product is not listed. Please contact us via info@kedachip.com"
       >
         <template v-slot:item.logo="{ item }">
           <v-img

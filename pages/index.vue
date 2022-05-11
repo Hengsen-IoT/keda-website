@@ -6,10 +6,24 @@
           Keda Enterprise Development Co.
         </h1>
         <h2 class="text-h4 white--text text-center font-weight-light mb-5">
-          Keda Enterprise Development Co. was established in 1997. The company
-          has long been focusing on the semiconductor field as a first-level
-          agent for multiple brands.
+          We distribute IC products and solutions for our customers around the
+          world.
+          <br />
+          Keda Enterprise Development has long been focusing on the
+          semiconductor field as a first-level agent for multiple brands.
         </h2>
+        <div class="text-center">
+          <v-btn color="primary" to="#contact" class="me-2">Contact Us</v-btn>
+          <v-btn
+            color="white"
+            :href="`mailto:${contact.email}`"
+            target="_blank"
+            text
+          >
+            <v-icon left>mdi-email</v-icon>
+            Email</v-btn
+          >
+        </div>
       </v-container>
     </div>
     <div>
@@ -98,7 +112,23 @@
 
         <v-divider class="my-6"></v-divider>
 
-        <IndexSection id="contact" title="Contact" subtitle="">
+        <IndexSection
+          id="contact"
+          title="Contact"
+          subtitle="If you have any questions, or want to request quotations, please contact us."
+        >
+          <div class="text-center">
+            <v-btn
+              class="mb-4"
+              color="primary"
+              :href="`mailto:${contact.email}`"
+              text
+              target="_blank"
+            >
+              <v-icon left>mdi-email</v-icon>
+              Email Us
+            </v-btn>
+          </div>
           <ContactBlock :value="contact"></ContactBlock>
         </IndexSection>
       </v-container>
